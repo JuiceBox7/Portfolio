@@ -73,21 +73,39 @@ nav ul li a:hover {
 }
 
 .left-half {
-    width: 42%;
+    width: 45%;
     float: left;
-    margin-left: 8%;
+    margin-left: 5%;
     padding: 20px;
     box-sizing: border-box; /* Ensure padding is included in the width calculation */
     text-align: left; /* Align text to the left */
 }
 
+.left-half-resume {
+    width: 45%;
+    float: left;
+    margin-left: 5%;
+    padding: 20px;
+    box-sizing: border-box; /* Ensure padding is included in the width calculation */
+    text-align: right; /* Align text to the left */
+}
+
 .right-half {
-    width: 42%;
+    width: 45%;
     float: right;
-    margin-right: 8%;
+    margin-right: 5%;
     padding: 20px;
     box-sizing: border-box; /* Ensure padding is included in the width calculation */
     text-align: right; /* Align text to the right */
+}
+
+.right-half-resume {
+    width: 45%;
+    float: right;
+    margin-right: 5%;
+    padding: 20px;
+    box-sizing: border-box; /* Ensure padding is included in the width calculation */
+    text-align: left; /* Align text to the right */
 }
 
 h1 {
