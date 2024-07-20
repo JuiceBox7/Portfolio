@@ -22,7 +22,7 @@ body {
     font-size: 24px;
     font-weight: bold;
     color: #333; /* Dark text color for title */
-    margin-right: 950px; /* Space between title and navigation */
+    margin-right: auto; /* Space between title and navigation */
 }
 
 .title a {
@@ -35,6 +35,11 @@ body {
 
 .title a:hover {
     color: #76c76c; /* Change color on hover */
+}
+
+nav {
+    margin-left: auto;
+    margin-right: 20px;
 }
 
 nav ul {
@@ -61,8 +66,28 @@ nav ul li a:hover {
 
 .content {
     margin-top: 70px; /* Adjust this value if the height of .top-border changes */
+    margin-left: 10%;
+    margin-right: 10%;
     padding: 20px;
     text-align: center;
+}
+
+.left-half {
+    width: 42%;
+    float: left;
+    margin-left: 8%;
+    padding: 20px;
+    box-sizing: border-box; /* Ensure padding is included in the width calculation */
+    text-align: left; /* Align text to the left */
+}
+
+.right-half {
+    width: 42%;
+    float: right;
+    margin-right: 8%;
+    padding: 20px;
+    box-sizing: border-box; /* Ensure padding is included in the width calculation */
+    text-align: right; /* Align text to the right */
 }
 
 h1 {
@@ -86,4 +111,21 @@ button {
 
 button:hover {
     background-color: #76c76c; /* Darker green on hover */
+}
+
+.download-button {
+    background-color: #008CBA; /* Blue background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline from link */
+    display: inline-block; /* Make the button inline-block */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.download-button:hover {
+    background-color: #005f6a; /* Darker blue on hover */
 }
