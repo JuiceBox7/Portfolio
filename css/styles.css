@@ -5,17 +5,17 @@ body {
     color: #fff; /* Light text color for better contrast */
 }
 
-.contact-link {
+.page-link {
     text-decoration: none; /* Remove underline */
     color: #90ee90;
 }
 
-.contact-link:visited {
+.page-link:visited {
     text-decoration: none;
     color: #76c76c; /* Inherit the color from the parent element */
 }
 
-.contact-link:hover {
+.page-link:hover {
     text-decoration: underline; /* Optional: Add underline on hover for better accessibility */
 }
 
@@ -92,7 +92,7 @@ nav ul li a:hover {
     margin-left: 5%;
     padding: 20px;
     box-sizing: border-box; /* Ensure padding is included in the width calculation */
-    text-align: left; /* Align text to the left */
+    text-align: center; /* Align text to the left */
 }
 
 .left-half-resume {
@@ -119,7 +119,7 @@ nav ul li a:hover {
     margin-right: 5%;
     padding: 20px;
     box-sizing: border-box; /* Ensure padding is included in the width calculation */
-    text-align: right; /* Align text to the right */
+    text-align: center; /* Align text to the right */
 }
 
 .right-half-resume {
