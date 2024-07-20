@@ -5,6 +5,20 @@ body {
     color: #fff; /* Light text color for better contrast */
 }
 
+.contact-link {
+    text-decoration: none; /* Remove underline */
+    color: #90ee90;
+}
+
+.contact-link:visited {
+    text-decoration: none;
+    color: #76c76c; /* Inherit the color from the parent element */
+}
+
+.contact-link:hover {
+    text-decoration: underline; /* Optional: Add underline on hover for better accessibility */
+}
+
 .top-border {
     border-top: 5px solid #76c76c;
     background-color: #f8f8f8;
@@ -134,21 +148,6 @@ p {
     color: #ddd; /* Lighter grey text color for better contrast */
     font-size: larger;
 }
-
-a {
-    text-decoration: none; /* Remove underline */
-    color: #90ee90;
-}
-
-a:visited {
-    text-decoration: none;
-    color: #76c76c; /* Inherit the color from the parent element */
-}
-
-a:hover {
-    text-decoration: underline; /* Optional: Add underline on hover for better accessibility */
-}
-
 
 button {
     background-color: #90ee90; /* Light green background */
