@@ -86,76 +86,51 @@ nav ul li a:hover {
     text-align: center;
 }
 
-.left-half {
-    width: 45%;
-    float: left;
-    margin-left: 5%;
+.half-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Ensure responsiveness */
+    gap: 10px; /* Optional: add gap between items */
+}
+
+.left-half, .right-half {
+    width: 48%; /* Adjust to fit within the container */
+    padding: 20px;
+    box-sizing: border-box; /* Ensure padding is included in the width calculation */
+    text-align: center; /* Align text to the center */
+    border-radius: 10px; /* Optional: add border radius for rounded corners */
+}
+
+.left-half-resume, .right-half-resume {
+    width: 48%;
     padding: 20px;
     box-sizing: border-box; /* Ensure padding is included in the width calculation */
     text-align: center; /* Align text to the left */
+    border-radius: 10px;
 }
 
-.left-half-resume {
-    width: 45%;
-    float: left;
-    margin-left: 5%;
+.left-half-projects, .right-half-projects {
+    width: 48%;
     padding: 20px;
     box-sizing: border-box; /* Ensure padding is included in the width calculation */
     text-align: center; /* Align text to the left */
-}
-
-.left-half-projects {
-    width: 45%;
-    float: left;
-    margin-left: 5%;
-    padding: 20px;
-    box-sizing: border-box; /* Ensure padding is included in the width calculation */
-    text-align: right; /* Align text to the left */
+    border-radius: 10px;
 }
 
 .left-half-contact {
-    width: 45%;
-    float: left;
-    margin-left: 5%;
+    width: 48%;
     padding: 20px;
     box-sizing: border-box; /* Ensure padding is included in the width calculation */
     text-align: right; /* Align text to the left */
-}
-
-.right-half {
-    width: 45%;
-    float: right;
-    margin-right: 5%;
-    padding: 20px;
-    box-sizing: border-box; /* Ensure padding is included in the width calculation */
-    text-align: center; /* Align text to the right */
-}
-
-.right-half-resume {
-    width: 45%;
-    float: right;
-    margin-right: 5%;
-    padding: 20px;
-    box-sizing: border-box; /* Ensure padding is included in the width calculation */
-    text-align: left; /* Align text to the right */
-}
-
-.right-half-projects {
-    width: 45%;
-    float: right;
-    margin-right: 5%;
-    padding: 20px;
-    box-sizing: border-box; /* Ensure padding is included in the width calculation */
-    text-align: left; /* Align text to the right */
+    border-radius: 10px;
 }
 
 .right-half-contact {
-    width: 45%;
-    float: right;
-    margin-right: 5%;
+    width: 48%;
     padding: 20px;
     box-sizing: border-box; /* Ensure padding is included in the width calculation */
     text-align: left; /* Align text to the right */
+    border-radius: 10px;
 }
 
 h1 {
