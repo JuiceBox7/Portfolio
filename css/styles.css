@@ -87,7 +87,7 @@ nav ul li a:hover {
     margin-left: 5%;
     padding: 20px;
     box-sizing: border-box; /* Ensure padding is included in the width calculation */
-    text-align: right; /* Align text to the left */
+    text-align: center; /* Align text to the left */
 }
 
 .right-half {
