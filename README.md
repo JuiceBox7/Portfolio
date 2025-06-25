@@ -1,1 +1,1 @@
-A portfolio website to showcase my achievements, talents, and skills in a nice fashion.
+A portfolio website to showcase a collection of projects I've done over the years 
