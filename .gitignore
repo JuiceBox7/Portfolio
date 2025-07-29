@@ -1,3 +1,6 @@
+# Testing files
+test/
+
 # Node.js and npm
 node_modules/
 .pnp.js
