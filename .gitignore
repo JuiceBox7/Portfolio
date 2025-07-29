@@ -1,1 +1,26 @@
+# Node.js and npm
+node_modules/
+.pnp.js
+.pnp.cjs
+.npm/
+
+# Vite
+dist/
+.vite/
+.env.local
+.env.*.local
+coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
 .DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
