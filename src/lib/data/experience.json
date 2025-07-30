@@ -1,0 +1,36 @@
+[
+  {
+    "title": "Freelance Web Developer",
+    "company": "LDJTherapy",
+    "duration": "May 2025 - Present",
+    "description": "Designing and developing Wordpress website using YooTheme Pro Page Builder, curating an intuitive, simple, and modern web interface with a focus to not overwhelm users. Communicating with clients about web components and technical requirements in a non-technical manner to share ideas, get input, and decide on features for the website.",
+    "badges": ["Web Development", "Project Management"]
+  },
+  {
+    "title": "Head of Front-End Engineering",
+    "company": "Olympiah",
+    "duration": "Feb 2025 - Present",
+    "description": "Driving seamless large scale web app development by contributing, refactoring, reviewing, testing, and approving code to create a high-performance Frontend. Leading a team of 12 Front-End engineers establishing project workflows to enhance productivity and efficiency, ensuring the timely delivery of high-performing, user-rich, scalable Web Components.",
+    "badges": [
+      "React",
+      "TypeScript",
+      "Nextjs",
+      "Software Project Management",
+      "Leadership"
+    ]
+  },
+  {
+    "title": "Software Engineer",
+    "company": "Icarus Development",
+    "duration": "Nov 2024 - Present",
+    "description": "Utilizing TypeScript and React Native to create User Interface Designs and UI/UX optimized for user-friendly interfaces and experiences on mobile and web. Collaborating closely with designers to translate designs made in Figma into dynamic and responsive Front-End experiences through continuous User Testing and Development.",
+    "badges": ["React", "TypeScript", "Mobile Development", "Firebase", "Web Development"]
+  },
+  {
+    "title": "Software Engineer",
+    "company": "Olympiah",
+    "duration": "Dec 2024 - Feb 2025",
+    "description": "Utilizing TypeScript, React, and Tailwind to create and refine Web components to create a social network web application. Integrating API created by Back-End team, as well as communicating them of necessary end points that need to be created for high-performing custom web components.",
+    "badges": ["Nextjs", "React", "Front-End Development", "TypeScript", "Web Development"]
+  }
+]

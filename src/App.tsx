@@ -1,19 +1,18 @@
-import GetPixelWidth from "./components/GetPixelWidth";
 import "./App.css";
+import Experience from "./Experience";
+import SplashScreen from "./SplashScreen";
+import { Separator } from "./ui/separator";
 
 function App() {
-  const pixelWidth = GetPixelWidth();
-
   return (
-    <>
-      <div className="card">
-        <p>
-          Currently being redone to better showcase talents, skills, experience,
-          and projects
-        </p>
-        <p>heres the current pixel width {pixelWidth}</p>
-      </div>
-    </>
+    <div className="p-5">
+      <p className="pb-20 text-xl font-semibold">
+        Currently being redone to better showcase talents, skills, experience,
+        and projects
+      </p>
+      <SplashScreen />
+      <Experience />
+    </div>
   );
 }
 
