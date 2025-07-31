@@ -133,18 +133,22 @@
     @apply bg-background text-foreground;
   }
   #root {
-    @apply max-w-[1200px] mx-auto p-8 text-center bg-[#282828] text-white
+    background-image: radial-gradient(rgb(171, 171, 171) 1px, transparent 1px);
+    background-size: 2.5rem 2.5rem;
+    background-repeat: repeat;
+
+    @apply max-w-[1200px] mx-auto p-8 text-center bg-[#282828] text-white;
   }
   .gradient-name {
     background: linear-gradient(
       to right,
-      #a855f7,
-      #ec4899,
-      #eab308,
-      #ec4899,
-      #a855f7,
-      #ec4899,
-      #eab308
+      #1560e2,
+      #15cae2,
+      #15e286,
+      #15cae2,
+      #1560e2,
+      #15cae2,
+      #15e286
     );
     background-size: 300% 300%;
     background-clip: text;
