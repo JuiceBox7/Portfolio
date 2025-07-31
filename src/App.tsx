@@ -1,7 +1,5 @@
-import "./App.css";
 import Experience from "./Experience";
 import SplashScreen from "./SplashScreen";
-import { Separator } from "./ui/separator";
 
 function App() {
   return (

@@ -3,7 +3,7 @@ import { Separator } from "./ui/separator";
 function SplashScreen() {
   return (
     <div>
-      <h1 className="text-6xl font-medium">Julian Lara</h1>
+      <h1 className="text-6xl font-medium gradient-name animate-gradient-shift">Julian Lara</h1>
       <Separator className="my-3" />
       <div className="flex h-12 items-center justify-center space-x-5 text-lg">
         <p>Software Engineer</p>
