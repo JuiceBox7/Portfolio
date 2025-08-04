@@ -1,12 +1,6 @@
 import { Badge } from "@/ui/badge";
 import { Card } from "@/ui/card";
-
-function GroupArray(array: any[], size: number) {
-  const res: any[][] = [];
-  for (let i = 0; i < array.length; i += size)
-    res.push(array.slice(i, i + size));
-  return res;
-}
+import { useState } from "react";
 
 export function Entry({
   title,
@@ -21,12 +15,26 @@ export function Entry({
   desc: string;
   badges: string[];
 }) {
-  let badgeGroups = [badges];
-  if (badges.length > 3) {
-    badgeGroups = GroupArray(badges, 3);
-  }
+  const [rotate, setRotate] = useState({ x: 0, y: 0 });
+
+  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    const x = ((e.clientX - rect.left) / rect.width - 0.5) * 30;
+    const y = ((e.clientY - rect.top) / rect.height - 0.5) * -30;
+    setRotate({ x, y });
+  };
+
+  const handleMouseLeave = () => {
+    setRotate({ x: 0, y: 0 });
+  };
+
   return (
-    <Card className="w-full rounded-2xl bg-transparent shadow-xl text-white p-6">
+    <Card
+      className="w-full transform-gpu ease-out group perspective-[3000px] cursor-pointer scale-95 hover:scale-100 transition-all duration-150 rounded-2xl bg-transparent shadow-xl text-white p-6"
+      onMouseMove={handleMouseMove}
+      onMouseLeave={handleMouseLeave}
+      style={{ transform: `rotateX(${rotate.y}deg) rotateY(${rotate.x}deg)` }}
+    >
       <div className="text-left pb-8">
         <p className="text-2xl font-extralight pb-1">{title}</p>
         <div className="flex text-lg font-semibold justify-between w-full pb-3">
@@ -34,19 +42,11 @@ export function Entry({
           <p>{dur}</p>
         </div>
         <p className="text-md pb-4">{desc}</p>
-        <div className="flex flex-col">
-          {badgeGroups.map((badges, badgesIndex) => (
-            <div key={badgesIndex} className="flex-row space-x-2 pb-1">
-              {badges.map((badge, badgeIndex) => (
-                <Badge
-                  key={badgeIndex}
-                  variant="secondary"
-                  className="bg-blue-100"
-                >
-                  {badge}
-                </Badge>
-              ))}
-            </div>
+        <div className="flex-row space-y-1 space-x-2 opacity-0 group-hover:opacity-100 scale-50 group-hover:scale-100 transition-all duration-150 z-10">
+          {badges.map((badge, badgeIndex) => (
+            <Badge key={badgeIndex} variant="secondary" className="bg-gray-300">
+              {badge}
+            </Badge>
           ))}
         </div>
       </div>
