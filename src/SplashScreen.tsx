@@ -7,7 +7,7 @@ function SplashScreen() {
         Julian Lara
       </h1>
       <Separator className="my-3" />
-      <div className="flex h-12 items-center justify-center space-x-5 text-lg">
+      <div className="flex h-12 items-center justify-center space-x-5 text-md sm:text-3xl font-medium">
         <p>Software Engineer</p>
         <Separator orientation="vertical" />
         <p>Full Stack Development</p>

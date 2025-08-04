@@ -30,14 +30,14 @@ export function Entry({
 
   return (
     <Card
-      className="w-full transform-gpu ease-out group perspective-[3000px] cursor-pointer scale-95 hover:scale-100 transition-all duration-150 rounded-2xl bg-transparent shadow-xl text-white p-6"
+      className="w-full transform-gpu ease-out group perspective-[3000px] cursor-pointer scale-95 hover:scale-100 transition-all duration-150 rounded-2xl bg-transparent shadow-xl text-white p-5"
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
       style={{ transform: `rotateX(${rotate.y}deg) rotateY(${rotate.x}deg)` }}
     >
       <div className="text-left pb-8">
         <p className="text-2xl font-extralight pb-1">{title}</p>
-        <div className="flex text-lg font-semibold justify-between w-full pb-3">
+        <div className="flex space-x-10 text-lg font-semibold justify-between w-full pb-3">
           <p>{co}</p>
           <p>{dur}</p>
         </div>
