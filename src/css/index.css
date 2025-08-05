@@ -168,11 +168,23 @@
   }
   .gradient-button {
     background: linear-gradient(45deg, #15e267, #1590e2, #15e267, #1590e2);
+    background-size: 200% 200%;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
     font-weight: bold;
     font-size: 24px;
+    @apply animate-gradient-shift;
+  }
+  .gradient-contact {
+    background: linear-gradient(45deg, #e28915, #15abe2, #e28915, #15abe2);
+    background-size: 200% 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-weight: bold;
+    @apply animate-gradient-shift;
   }
 }

@@ -1,3 +1,4 @@
+import { Button } from "./ui/button";
 import { Separator } from "./ui/separator";
 
 function SplashScreen() {
@@ -7,13 +8,16 @@ function SplashScreen() {
         Julian Lara
       </h1>
       <Separator className="my-3" />
-      <div className="flex h-12 items-center justify-center space-x-5 text-md sm:text-3xl font-medium">
+      <div className="flex h-12 items-center justify-center space-x-5 text-md sm:text-3xl font-medium mb-8">
         <p>Software Engineer</p>
         <Separator orientation="vertical" />
         <p>Full Stack Development</p>
         <Separator orientation="vertical" />
         <p>Web Development</p>
       </div>
+      <Button variant="glass" size="xl" className="gradient-button">
+        Contact Me
+      </Button>
     </div>
   );
 }
