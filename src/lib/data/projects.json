@@ -1,0 +1,81 @@
+[
+  {
+    "title": "This Website",
+    "description": "This very website was made with the intention of being a high-quality, modern portfolio to showcase my past work. I utilized modern web development and design practices in the coding of this website, making use of Tailwind v4, React, TypeScript, and Vite to deliver a clean and responsive experience. It's also just nice to have a cool looking website to call your own!",
+    "badges": ["Web Development", "React", "TypeScript", "Tailwind", "Vite"],
+    "links": [
+      {
+        "title": "GitHub",
+        "link": "https://github.com/JuiceBox7/Portfolio"
+      }
+    ]
+  },
+  {
+    "title": "Permanence Break",
+    "description": "A game developed with five friends that we successfully launched on Steam! I acted as Design Lead and handled mockups, prototypes, integrating an analytics and statistic tracking API, user interfaces, and level design. We used Agile methodologies to manage development cycles and improve production and efficiency, and also conducted user testing to refine UI/UX and other aspects of our game based on user feedback.",
+    "badges": [
+      "Game Development",
+      "C#",
+      "Unity",
+      "UI/UX",
+      "CI/CD",
+      "Leadership/Collaboration"
+    ],
+    "links": [
+      {
+        "title": "Steam",
+        "link": "https://store.steampowered.com/app/2928200/Permanence_Break/"
+      }
+    ]
+  },
+  {
+    "title": "Farming Game",
+    "description": "A gridlike farming game created to enforce continuous integration and constantly changing design requirements to mimic a realistic professional project. This project handled the following challenges throughout various deadlines (with many challenges being created artificially on the spot to simulate a real world scenario): Storing states of grid cells in a single continuous byte array, Ensuring the game is playable and downloadable on a mobile device, Localization, Internationalization, Creating an internal DSL, Creating an external DSL, Ensuring the code is scalable",
+    "badges": [
+      "JavaScript",
+      "CI/CD",
+      "Design Patterns",
+      "Leadership/Collaboration"
+    ],
+    "links": [
+      {
+        "title": "GitHub",
+        "link": "https://github.com/agoy184/cmpm-121-final-G2"
+      },
+      {
+        "title": "Demo",
+        "link": "https://agoy184.github.io/cmpm-121-final-G2/"
+      }
+    ]
+  },
+  {
+    "title": "Geocache Map",
+    "description": "An online map of generated geocaches with unique tokens to enforce coding design patterns, specifically the Flyweight and Memento patterns. This project was intended to enforce an efficient use of memory, while also being able to seamlessly remember the states of geocaches when the user degenerates/regenerates them.",
+    "badges": ["TypeScript", "CI/CD", "Design Patterns"],
+    "links": [
+      {
+        "title": "GitHub",
+        "link": "https://github.com/juicebox7/cmpm-121-demo-3/"
+      },
+      {
+        "title": "Demo",
+        "link": "https://juicebox7.github.io/cmpm-121-demo-3/"
+      }
+    ]
+  },
+  {
+    "title": "Sketchpad",
+    "description": "A simple sketchpad that allows users to draw with various tools to enable their creativity and give them control to undo/redo actions. This project was intended to enforce the Observer pattern, while also ensuring the code was easily scalable for future features, mimicing a real world scenario.",
+    "badges": ["TypeScript", "CI/CD", "Design Patterns"],
+    "links": [
+      {
+        "title": "GitHub",
+        "link": "https://github.com/juicebox7/cmpm-121-demo-2/"
+      },
+      {
+        "title": "Demo",
+        "link": "https://juicebox7.github.io/cmpm-121-demo-2/"
+      }
+    ]
+  }
+]

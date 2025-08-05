@@ -3,9 +3,8 @@ import { Entry } from "./lib/util";
 import expData from "@/lib/data/experience.json";
 
 function Experience() {
-  console.log("exp pahe");
   return (
-    <div className="py-50">
+    <div className="py-30">
       <div className="space-y-1">
         <h1 className="text-left text-5xl font-medium">Experience</h1>
       </div>

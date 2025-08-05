@@ -2,7 +2,7 @@ import { Separator } from "./ui/separator";
 
 function SplashScreen() {
   return (
-    <div>
+    <div className="py-75">
       <h1 className="text-6xl font-medium gradient-name animate-gradient-shift">
         Julian Lara
       </h1>
