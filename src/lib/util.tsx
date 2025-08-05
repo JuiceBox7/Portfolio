@@ -64,7 +64,9 @@ export function Entry({
                 <a href={link.link}>
                   <Button
                     key={index}
-                    className="bg-gray-400 hover:bg-gray-600 cursor-pointer"
+                    variant="glass"
+                    size="lg"
+                    className="gradient-button"
                   >
                     {link.title}
                   </Button>
