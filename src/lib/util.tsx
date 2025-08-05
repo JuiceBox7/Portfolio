@@ -2,10 +2,11 @@ import { Badge } from "@/ui/badge";
 import { Button } from "@/ui/button";
 import { Card } from "@/ui/card";
 import { useState } from "react";
+import { Download } from "lucide-react";
 
 interface link {
   title: string;
-  link: string;
+  url: string;
 }
 
 export function Entry({
@@ -60,18 +61,31 @@ export function Entry({
           </div>
           <div className="flex items-center justify-center gap-2">
             {links.length > 0 &&
-              links.map((link, index) => (
-                <a href={link.link}>
-                  <Button
-                    key={index}
-                    variant="glass"
-                    size="lg"
-                    className="gradient-button"
-                  >
-                    {link.title}
-                  </Button>
-                </a>
-              ))}
+              links.map((link, index) =>
+                link.url.includes(".zip") ? (
+                  <a href={link.url} download>
+                    <Button
+                      key={index}
+                      variant="glass"
+                      size="lg"
+                      className="gradient-button"
+                    >
+                      {link.title} ⤓
+                    </Button>
+                  </a>
+                ) : (
+                  <a href={link.url}>
+                    <Button
+                      key={index}
+                      variant="glass"
+                      size="lg"
+                      className="gradient-button"
+                    >
+                      {link.title}
+                    </Button>
+                  </a>
+                )
+              )}
           </div>
         </div>
       </div>

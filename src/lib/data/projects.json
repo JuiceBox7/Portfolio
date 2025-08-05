@@ -6,7 +6,7 @@
     "links": [
       {
         "title": "GitHub",
-        "link": "https://github.com/JuiceBox7/Portfolio"
+        "url": "https://github.com/JuiceBox7/Portfolio"
       }
     ]
   },
@@ -24,7 +24,7 @@
     "links": [
       {
         "title": "Steam",
-        "link": "https://store.steampowered.com/app/2928200/Permanence_Break/"
+        "url": "https://store.steampowered.com/app/2928200/Permanence_Break/"
       }
     ]
   },
@@ -40,11 +40,11 @@
     "links": [
       {
         "title": "GitHub",
-        "link": "https://github.com/agoy184/cmpm-121-final-G2"
+        "url": "https://github.com/agoy184/cmpm-121-final-G2"
       },
       {
         "title": "Demo",
-        "link": "https://agoy184.github.io/cmpm-121-final-G2/"
+        "url": "https://agoy184.github.io/cmpm-121-final-G2/"
       }
     ]
   },
@@ -55,11 +55,11 @@
     "links": [
       {
         "title": "GitHub",
-        "link": "https://github.com/juicebox7/cmpm-121-demo-3/"
+        "url": "https://github.com/juicebox7/cmpm-121-demo-3/"
       },
       {
         "title": "Demo",
-        "link": "https://juicebox7.github.io/cmpm-121-demo-3/"
+        "url": "https://juicebox7.github.io/cmpm-121-demo-3/"
       }
     ]
   },
@@ -70,11 +70,44 @@
     "links": [
       {
         "title": "GitHub",
-        "link": "https://github.com/juicebox7/cmpm-121-demo-2/"
+        "url": "https://github.com/juicebox7/cmpm-121-demo-2/"
       },
       {
         "title": "Demo",
-        "link": "https://juicebox7.github.io/cmpm-121-demo-2/"
+        "url": "https://juicebox7.github.io/cmpm-121-demo-2/"
+      }
+    ]
+  },
+  {
+    "title": "Command Line Robot",
+    "description": "A robot commanded via the command line, that operates via a client/server connection. This project was intended to control the state of a robot through an HTTP client/server connection, outputting the status of the robot in the terminal to communicate with the user.",
+    "badges": [
+      "C++",
+      "Object Oriented Programming",
+      "Computer Networking",
+      "HTTP Protocols"
+    ],
+    "links": [
+      {
+        "title": "Source Code",
+        "url": "/files/state-robot.zip"
+      }
+    ]
+  },
+  {
+    "title": "Pac AI",
+    "description": "A collection of files containing Q-Learning algorithms, Value Iteration Agents, and two custom made Pac-Man Ghost AI models designed for a competition. The competition consisted of rounds of 2v2 matches between AI models, with the agents being ghosts within their base to defend it's pellets, while also crossing over, becoming Pac-Man and eating the opposiing teams pellets.",
+    "badges": [
+      "Python",
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Reinforcement Learning",
+      "Algorithms"
+    ],
+    "links": [
+      {
+        "title": "Source Code",
+        "url": "/files/pacman-ai.zip"
       }
     ]
   }
