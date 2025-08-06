@@ -1,7 +1,11 @@
-import { Button } from "./ui/button";
-import { Separator } from "./ui/separator";
+import { Button } from "./components/ui/button";
+import { Separator } from "./components/ui/separator";
 
-function SplashScreen() {
+function SplashScreen({ open }: { open: () => void }) {
+  const handleContactClick = () => {
+    open();
+  };
+
   return (
     <div className="py-75">
       <h1 className="text-6xl font-medium gradient-name animate-gradient-shift">
@@ -15,7 +19,12 @@ function SplashScreen() {
         <Separator orientation="vertical" />
         <p>Web Development</p>
       </div>
-      <Button variant="glass" size="xl" className="gradient-button">
+      <Button
+        variant="glass"
+        size="xl"
+        className="gradient-button"
+        onClick={handleContactClick}
+      >
         Contact Me
       </Button>
     </div>

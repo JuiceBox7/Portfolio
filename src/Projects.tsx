@@ -1,5 +1,5 @@
-import { Separator } from "@/ui/separator";
-import { Entry } from "./lib/util";
+import { Separator } from "@/components/ui/separator";
+import Entry from "./components/Entry";
 import projData from "@/lib/data/projects.json";
 
 function Projects() {

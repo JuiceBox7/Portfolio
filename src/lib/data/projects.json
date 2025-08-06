@@ -29,52 +29,19 @@
     ]
   },
   {
-    "title": "Farming Game",
-    "description": "A gridlike farming game created to enforce continuous integration and constantly changing design requirements to mimic a realistic professional project. This project handled the following challenges throughout various deadlines (with many challenges being created artificially on the spot to simulate a real world scenario): Storing states of grid cells in a single continuous byte array, Ensuring the game is playable and downloadable on a mobile device, Localization, Internationalization, Creating an internal DSL, Creating an external DSL, Ensuring the code is scalable",
+    "title": "Pac AI",
+    "description": "A collection of files containing Q-Learning algorithms, Value Iteration Agents, and two custom made Pac-Man Ghost AI models designed for a competition. The competition consisted of rounds of 2v2 matches between AI models, with the agents being ghosts within their base to defend it's pellets, while also crossing over, becoming Pac-Man and eating the opposiing teams pellets.",
     "badges": [
-      "JavaScript",
-      "CI/CD",
-      "Design Patterns",
-      "Leadership/Collaboration"
+      "Python",
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Reinforcement Learning",
+      "Algorithms"
     ],
     "links": [
       {
-        "title": "GitHub",
-        "url": "https://github.com/agoy184/cmpm-121-final-G2"
-      },
-      {
-        "title": "Demo",
-        "url": "https://agoy184.github.io/cmpm-121-final-G2/"
-      }
-    ]
-  },
-  {
-    "title": "Geocache Map",
-    "description": "An online map of generated geocaches with unique tokens to enforce coding design patterns, specifically the Flyweight and Memento patterns. This project was intended to enforce an efficient use of memory, while also being able to seamlessly remember the states of geocaches when the user degenerates/regenerates them.",
-    "badges": ["TypeScript", "CI/CD", "Design Patterns"],
-    "links": [
-      {
-        "title": "GitHub",
-        "url": "https://github.com/juicebox7/cmpm-121-demo-3/"
-      },
-      {
-        "title": "Demo",
-        "url": "https://juicebox7.github.io/cmpm-121-demo-3/"
-      }
-    ]
-  },
-  {
-    "title": "Sketchpad",
-    "description": "A simple sketchpad that allows users to draw with various tools to enable their creativity and give them control to undo/redo actions. This project was intended to enforce the Observer pattern, while also ensuring the code was easily scalable for future features, mimicing a real world scenario.",
-    "badges": ["TypeScript", "CI/CD", "Design Patterns"],
-    "links": [
-      {
-        "title": "GitHub",
-        "url": "https://github.com/juicebox7/cmpm-121-demo-2/"
-      },
-      {
-        "title": "Demo",
-        "url": "https://juicebox7.github.io/cmpm-121-demo-2/"
+        "title": "Source Code",
+        "url": "/files/pacman-ai.zip"
       }
     ]
   },
@@ -95,19 +62,52 @@
     ]
   },
   {
-    "title": "Pac AI",
-    "description": "A collection of files containing Q-Learning algorithms, Value Iteration Agents, and two custom made Pac-Man Ghost AI models designed for a competition. The competition consisted of rounds of 2v2 matches between AI models, with the agents being ghosts within their base to defend it's pellets, while also crossing over, becoming Pac-Man and eating the opposiing teams pellets.",
+    "title": "Geocache Map",
+    "description": "An online map of generated geocaches with unique tokens to enforce coding design patterns, specifically the Flyweight and Memento patterns. This project was intended to enforce an efficient use of memory, while also being able to seamlessly remember the states of geocaches when the user degenerates/regenerates them.",
+    "badges": ["TypeScript", "CI/CD", "Design Patterns"],
+    "links": [
+      {
+        "title": "GitHub",
+        "url": "https://github.com/juicebox7/cmpm-121-demo-3/"
+      },
+      {
+        "title": "Demo",
+        "url": "https://juicebox7.github.io/cmpm-121-demo-3/"
+      }
+    ]
+  },
+  {
+    "title": "Farming Game",
+    "description": "A gridlike farming game created to enforce continuous integration and constantly changing design requirements to mimic a realistic professional project. This project handled the following challenges throughout various deadlines (with many challenges being created artificially on the spot to simulate a real world scenario): Storing states of grid cells in a single continuous byte array, Ensuring the game is playable and downloadable on a mobile device, Localization, Internationalization, Creating an internal DSL, Creating an external DSL, Ensuring the code is scalable",
     "badges": [
-      "Python",
-      "Artificial Intelligence",
-      "Machine Learning",
-      "Reinforcement Learning",
-      "Algorithms"
+      "JavaScript",
+      "CI/CD",
+      "Design Patterns",
+      "Leadership/Collaboration"
     ],
     "links": [
       {
-        "title": "Source Code",
-        "url": "/files/pacman-ai.zip"
+        "title": "GitHub",
+        "url": "https://github.com/agoy184/cmpm-121-final-G2"
+      },
+      {
+        "title": "Demo",
+        "url": "https://agoy184.github.io/cmpm-121-final-G2/"
+      }
+    ]
+  },
+  {
+    "title": "Sketchpad",
+    "description": "A simple sketchpad that allows users to draw with various tools to enable their creativity and give them control to undo/redo actions. This project was intended to enforce the Observer pattern, while also ensuring the code was easily scalable for future features, mimicing a real world scenario.",
+    "badges": ["TypeScript", "CI/CD", "Design Patterns"],
+    "links": [
+      {
+        "title": "GitHub",
+        "url": "https://github.com/juicebox7/cmpm-121-demo-2/"
+      },
+      {
+        "title": "Demo",
+        "url": "https://juicebox7.github.io/cmpm-121-demo-2/"
       }
     ]
   }
