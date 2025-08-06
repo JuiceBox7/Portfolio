@@ -22,11 +22,7 @@ function App() {
         <Experience />
         <Projects />
       </div>
-      {showModal && (
-        <div className="flex items-center justify-center">
-          <ContactModal close={closeModal} />
-        </div>
-      )}
+      {showModal && <ContactModal close={closeModal} />}
     </div>
   );
 }
