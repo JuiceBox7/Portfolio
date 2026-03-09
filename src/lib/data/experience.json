@@ -1,36 +1,48 @@
 [
   {
-    "title": "Freelance Web Developer",
-    "company": "LDJTherapy",
-    "duration": "May 2025 - Present",
-    "description": "Designing and developing Wordpress website using YooTheme Pro Page Builder, curating an intuitive, simple, and modern web interface with a focus to not overwhelm users. Communicating with clients about web components and technical requirements in a non-technical manner to share ideas, get input, and decide on features for the website.",
-    "badges": ["Web Development", "Project Management", "Responsive Design"]
-  },
-  {
-    "title": "Head of Front-End Engineering",
-    "company": "Olympiah",
-    "duration": "Feb 2025 - Present",
-    "description": "Driving seamless large scale web app development by contributing, refactoring, reviewing, testing, and approving code to create a high-performance Frontend. Leading a team of 12 Front-End engineers establishing project workflows to enhance productivity and efficiency, ensuring the timely delivery of high-performing, user-rich, scalable Web Components.",
+    "title": "Software Engineer",
+    "company": "Frood",
+    "duration": "August 2025 - Present",
+    "description": "Optimizing app performance and user experience through new features, resolving bugs, and delivering consistent updates across iOS and Android using Flutter. Developing responsive, maintainable UI components and robust backend logic with Flutter and C#, aligning product goals with user needs to increase user count and engagement. Designing new and refactoring legacy backend systems using Microsoft ASP.NET Core tools, along with robust testing to ensure maintained support of existing infrastructure and scalability.",
     "badges": [
-      "React",
-      "TypeScript",
-      "Nextjs",
-      "Software Project Management",
-      "Leadership"
+      ".NET",
+      "Flutter",
+      "Full-Stack Development",
+      "C#",
+      "Database Management"
     ]
   },
   {
     "title": "Software Engineer",
     "company": "Icarus Development",
-    "duration": "Nov 2024 - Present",
-    "description": "Utilizing TypeScript and React Native to create User Interface Designs and UI/UX optimized for user-friendly interfaces and experiences on mobile and web. Collaborating closely with designers to translate designs made in Figma into dynamic and responsive Front-End experiences through continuous User Testing and Development.",
-    "badges": ["React", "TypeScript", "Mobile Development", "Firebase", "Web Development"]
+    "duration": "Nov 2024 - October 2025",
+    "description": "Utilizing TypeScript and React Native to create User Interface Designs and UI/UX optimized for user-friendly interfaces and experiences on mobile and web. Collaborating closely with designers to translate designs made in Figma into dynamic and responsive Front-End experiences through continuous User Testing and Development. Created Post components using React Native to ensure for mobile-friendly design, while following best practices to ensure functionality and features meet user expectations.",
+    "badges": [
+      "React",
+      "TypeScript",
+      "Mobile Development",
+      "Firebase",
+      "Web Development"
+    ]
+  },
+  {
+    "title": "Web Developer",
+    "company": "LDJTherapy",
+    "duration": "May 2025 - August 2025",
+    "description": "Designing and developing Wordpress website using YooTheme Pro Page Builder, curating an intuitive, simple, and modern web interface with a focus to not overwhelm users. Communicating with clients about web components and technical requirements in a non-technical manner to share ideas, get input, and decide on features for the website.",
+    "badges": ["Web Development", "Project Management", "Responsive Design"]
   },
   {
     "title": "Software Engineer",
     "company": "Olympiah",
-    "duration": "Dec 2024 - Feb 2025",
-    "description": "Utilizing TypeScript, React, and Tailwind to create and refine Web components to create a social network web application. Integrating API created by Back-End team, as well as communicating them of necessary end points that need to be created for high-performing custom web components.",
-    "badges": ["Nextjs", "React", "Front-End Development", "TypeScript", "Web Development"]
+    "duration": "Dec 2024 - Aug 2025",
+    "description": "Driving seamless large scale web app development by contributing, refactoring, reviewing, testing, and approving code to create a high-performance Frontend. Establishing project workflows to enhance productivity and efficiency, ensuring the timely delivery of high-performing, user-rich, scalable Web Components. Created multiple user interfaces designed to be responsive for different sized devices, that are intuitive and highly-functional for users to navigate the app.",
+    "badges": [
+      "Nextjs",
+      "React",
+      "Front-End Development",
+      "TypeScript",
+      "Web Development"
+    ]
   }
 ]
