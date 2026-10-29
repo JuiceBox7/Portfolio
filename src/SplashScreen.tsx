@@ -17,7 +17,7 @@ function SplashScreen({ open }: { open: () => void }) {
         <Separator orientation="vertical" />
         <p>Full Stack Development</p>
         <Separator orientation="vertical" />
-        <p>Web Development</p>
+        <p>IT Specialist</p>
       </div>
       <Button
         variant="glass"

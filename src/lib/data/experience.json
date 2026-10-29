@@ -13,9 +13,21 @@
     ]
   },
   {
+    "title": "Technical Support",
+    "company": "L&S Motorwerks",
+    "duration": "Mar 2026 - Present",
+    "description": "Designed and administered the organization's network infrastructure, implementing a mesh Wi-Fi environment, router/switch configuration, NAS deployment, and workstation standardization. Installed, configured, and maintained business-critical software, such as ISTA, on 10 devices across 5 workstations while diagnosing and resolving system and software issues by reinitializing networks, and troubleshooting applications. Managed shop inventory operations, including parts procurement, receiving, returns, stock management, and distribution for all active repair orders.",
+    "badges": [
+      "Network Infrastructure",
+      "Network Security",
+      "IT Operations",
+      "Network-Attached Storage"
+    ]
+  },
+  {
     "title": "Software Engineer",
     "company": "Icarus Development",
-    "duration": "Nov 2024 - October 2025",
+    "duration": "Nov 2024 - August 2025",
     "description": "Utilizing TypeScript and React Native to create User Interface Designs and UI/UX optimized for user-friendly interfaces and experiences on mobile and web. Collaborating closely with designers to translate designs made in Figma into dynamic and responsive Front-End experiences through continuous User Testing and Development. Created Post components using React Native to ensure for mobile-friendly design, while following best practices to ensure functionality and features meet user expectations.",
     "badges": [
       "React",

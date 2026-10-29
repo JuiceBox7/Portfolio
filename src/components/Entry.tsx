@@ -24,6 +24,7 @@ function Entry({
   links?: link[];
 }) {
   const [rotate, setRotate] = useState({ x: 0, y: 0 });
+  const [focused, setFocused] = useState(false);
 
   const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
     const rect = e.currentTarget.getBoundingClientRect();
@@ -36,11 +37,16 @@ function Entry({
     setRotate({ x: 0, y: 0 });
   };
 
+  const handleMouseDown = () => {
+    setFocused(!focused);
+  }
+
   return (
     <Card
       className="w-full transform-gpu ease-out group perspective-[3000px] scale-95 hover:scale-100 transition-all duration-150 rounded-2xl bg-transparent shadow-xl text-white p-5"
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
+      onMouseDown={handleMouseDown}
       style={{ transform: `rotateX(${rotate.y}deg) rotateY(${rotate.x}deg)` }}
     >
       <div className="text-left pb-8">
@@ -50,7 +56,9 @@ function Entry({
           <p>{dur}</p>
         </div>
         <p className="text-md pb-4">{desc}</p>
-        <div className="flex-row opacity-0 group-hover:opacity-100 scale-50 group-hover:scale-100 transition-all duration-150 z-10">
+        <div
+          className={`flex-row ${focused ? "opacity-100 scale-100" : "opacity-0 scale-50"} group-hover:opacity-100 group-hover:scale-100 transition-all duration-150 z-10`}
+        >
           <div className="pb-4 space-x-1 space-y-1">
             {badges.map((badge, index) => (
               <Badge key={index} variant="secondary" className="bg-gray-300">
